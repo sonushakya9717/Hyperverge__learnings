@@ -25,7 +25,7 @@
 # for j in dict1:
 #     if dict1[j]>1:
 #         duplicate_no.append(j)
-# if len(dublicate_no)==0:
+# if len(duplicate_no)==0:
 #     print("No duplicates found")
 # else: 
 #     print(duplicate_no)
