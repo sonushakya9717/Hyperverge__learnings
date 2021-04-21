@@ -19,8 +19,8 @@
 # for i in a:
 #     if i not in dict1:
 #         dict1[i]=1
-#     else:
-#         dict1[i]+=1
+    #     else:
+    #         dict1[i]+=1
 # duplicate_no=[]
 # for j in dict1:
 #     if dict1[j]>1:
