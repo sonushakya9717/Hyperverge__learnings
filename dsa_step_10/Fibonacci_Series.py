@@ -12,9 +12,6 @@
 
 
 
-
-
-
 # memo={}
 # def fabonacci(n):
 #     if n==1:
