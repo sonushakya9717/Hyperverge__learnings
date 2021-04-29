@@ -41,6 +41,18 @@
 #     else:
 #         return leaf_count(node.left)+leaf_count(node.right)
 
+# def height_tree(root):
+#         if not root:
+#             return -1
+#         left_height=height_tree(root.left)
+
+#         right_height=height_tree(root.right)
+        
+#         if left_height > right_height:
+#             return left_height+1
+#         else:
+#             return right_height+1
+
 # if __name__=="__main__":
     # root=Node(1)
     # root.left=Node(2)
@@ -52,6 +64,7 @@
     # print("preorder traversal:-",root.pre_order())
     # print("postorder traversal:-",root.post_order())
     # print("No of leafs:-",leaf_count(root))
+    # print(height_tree(root))
 
 
 
@@ -88,18 +101,8 @@
 #             else:
 #                 current=array.pop()
 #                 current=current.right
+
             
-
-
-#     def pre_order(self):
-#         elements=[]
-#         elements.append(self.data)
-#         if self.left:
-#             elements+=self.left.pre_order()
-#         if self.right:
-#             elements+=self.right.pre_order()
-#         return elements
-
 
 # if __name__=="__main__":
 #     root=Node(1)
@@ -108,6 +111,8 @@
 #     root.right.left=Node(4)
 #     root.right.right=Node(5)
 #     root.left.left=Node(6)
-#     # root.in_order_traversal()
-#     # root.pre_order_traversal()
-#     root.post_order_traversal()
+    # root.in_order_traversal()
+    # root.pre_order_traversal()
+
+
+
